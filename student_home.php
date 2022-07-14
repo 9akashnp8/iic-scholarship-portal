@@ -24,7 +24,7 @@ include 'header.php';
      }     
     }
     ?>
-
+  
     <div class="bg1">
     <div class="row">
     
