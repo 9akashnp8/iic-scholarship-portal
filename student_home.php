@@ -24,7 +24,7 @@ include 'header.php';
      }     
     }
     ?>
-  
+
     <div class="bg1">
     <div class="row">
     
@@ -43,12 +43,12 @@ include 'header.php';
 
               
               <div class="form-outline mb-4">
-          <input type="text" id="form3Example1q" class="form-control"  name="regid" value="<?php echo $regid ?>" />
+          <input type="text" id="form3Example1q" class="form-control" disabled name="regid" value="<?php echo $regid ?>" />
                           <label class="form-label" for="form3Example1q">User id</label>
               </div>
             
               <div class="form-outline mb-4">
-                <input type="number" id="form3Example1q" class="form-control"  name="amt" value="<?php echo $amt ?>"/>
+                <input type="number" id="form3Example1q" class="form-control" disabled name="amt" value="<?php echo $amt ?>"/>
                 <label class="form-label" for="form3Example1q">Amount</label>
               </div>
               
