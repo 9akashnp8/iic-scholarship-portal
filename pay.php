@@ -22,7 +22,7 @@ $api = new Api($keyId, $keySecret);
 $price =200;
 $_SESSION['price'] = $price;
 $customername = $_SESSION['name'];
-$email =$_SESSION['email'];
+//$email =$_SESSION['email'];
 $contactno = $phno;
 $orderData = [
     'receipt'         => 3456,
@@ -79,6 +79,7 @@ $json = json_encode($data);
 
 
 <form action="verify.php" method="POST">
+
   <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="<?php echo $data['key']?>"
